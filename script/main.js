@@ -24,12 +24,12 @@ $(function () {
   // Some config options for forked instances
 
   // Which organisation's issues you'd like to display
-  var defaultGithubOrganisation = 'hoodiehq';
+  var defaultGithubOrganisation = 'CocoaPods';
 
   // labelForNewCommitters is the label you use for simple issues that are suitable
   // for new committers.
   // Will expose a new button "show issues for new committers" if not empty
-  var labelForNewCommitters = 'starter';
+  var labelForNewCommitters = 'd1:easy';
 
   // Startup
 
