@@ -34,17 +34,7 @@ $(function () {
   // Startup
 
   var githubOrganisation;
-  // If ubersicht is running as a github-page, we can use the subdomain as
-  // the default organisation
-  if(window.location.host.indexOf('.github.io') !== -1){
-    githubOrganisation = window.location.host.replace('.github.io', '');
-    // If it's at espy.github.io, set to hoodieHQ, since that has more
-    // repos and issues and is a better example
-    if(githubOrganisation === 'espy'){
-      githubOrganisation = 'hoodiehq';
-    }
-  }
-  // If none of the above apply, set to default github organisation
+
   if(!githubOrganisation){
     githubOrganisation = defaultGithubOrganisation;
   }
